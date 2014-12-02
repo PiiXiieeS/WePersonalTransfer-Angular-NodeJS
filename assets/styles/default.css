@@ -1,0 +1,32 @@
+BODY {
+  background-color: #EEE;
+}
+
+.form-container {
+  width: 200px;
+  height: 200px;
+  margin: auto;
+  margin-top: 50px;
+}
+
+.upload-form {
+  width: 200px;
+  height: 200px;
+  background-color: #FFF;
+  display: table-cell;
+  vertical-align: middle;
+  
+  border-radius: 100px;
+  -webkit-border-radius: 100px;
+  -moz-border-radius: 100px;
+}
+
+.upload-form span {
+  font-family: "Helvetica Neue";
+  font-size: 20px;
+  font-weight: 300;
+}
+
+#preview {
+  margin-top: 60px;
+}
