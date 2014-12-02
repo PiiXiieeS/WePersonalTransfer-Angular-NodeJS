@@ -32,8 +32,8 @@ router.get('/', function(req, res) {
 
 /* POST upload a new file */
 router.post('/', function(req, res) {
-  console.log('Attempt to upload a file');
-  console.log(req.files);
+  res.statusCode = 200;
+  res.send();
 });
 
 module.exports = router;
